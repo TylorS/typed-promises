@@ -1,5 +1,5 @@
 {
-  "name": "@types/promises",
+  "name": "@typed/promises",
   "description": "Well-typed functional promise library",
   "repository": "https://github.com/TylorS/typed-promises",
   "version": "1.0.0",
