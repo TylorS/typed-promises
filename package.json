@@ -10,8 +10,11 @@
   "module": "lib.es2015/index.js",
   "author": "Tylor Steinberger <tlsteinberger167@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "167": "^0.25.0"
+  },
   "devDependencies": {
+    "@briancavalier/assert": "^3.4.0",
     "@motorcycle/tslint": "^3.1.0",
     "@types/mocha": "^2.2.41",
     "@types/node": "^7.0.22",
