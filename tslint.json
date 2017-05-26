@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@motorcycle/tslint"
+  ],
+  "rules": {
+    "unified-signatures": false,
+    "readonly-interface": false,
+    "no-unused-variable": [
+      false
+    ]
+  }
+}
