@@ -1,6 +1,9 @@
 import { create } from './create'
 import { curry2 } from '167'
 
+declare function setTimeout(f: (...args: Array<any>) => any, time: any, ...args: Array<any>): number
+declare function clearTimeout(id: number): void
+
 export const timeout: Timeout = curry2(_timeout)
 
 export interface Timeout {
