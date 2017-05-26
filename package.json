@@ -2,7 +2,7 @@
   "name": "@types/promises",
   "description": "Well-typed functional promise library",
   "repository": "https://github.com/TylorS/typed-promises",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
