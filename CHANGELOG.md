@@ -1,3 +1,13 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/TylorS/typed-promises/compare/v1.0.0...v2.0.0) (2017-05-26)
+
+
+### Features
+
+* **create:** rename resolve/reject to resolved/rejected ([ab20267](https://github.com/TylorS/typed-promises/commit/ab20267))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/TylorS/typed-promises/compare/350f6d6...v1.0.0) (2017-05-26)
 
