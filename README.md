@@ -54,7 +54,7 @@ Given `n` number of promises, returns a promise containing an array of resolved 
 ```typescript
 import { all, resolved } from '@typed/promises'
 
-const promise: Promise<[ number, string ]> = all(resolve(1), resolved('hello'))
+const promise: Promise<[ number, string ]> = all(resolved(1), resolved('hello'))
 ```
 
 ##### `bimap<A, B>(rejected: (e: Error) => B, resolved: (a: A) => B, promise: Promise<A>): Promise<B>`
