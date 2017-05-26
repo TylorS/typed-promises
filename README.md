@@ -62,9 +62,13 @@ const promise: Promise<[ number, string ]> = all(resolve(1), resolve('hello'))
 Allows dealing with a promise's resolved and rejected states
 
 ```typescript
-import { resolve, bimap } from '@typed/promises'
+import { resolve, reject, bimap } from '@typed/promises'
 
-const promise: Promise<number> = bimap((e: Error) => 0, (a: string) => a + 10, resolve(1))
+// will call success (2nd) function
+const promise: Promise<number> = bimap((e: Error) => 0, (a: number) => a + 10, resolve(1))
+
+// will call rejected (1st) function
+const promise: Promise<number> = bimap((e: Error) => 0, (a: number) => a + 10, reject(new Error('foo')))
 ```
 
 ##### `catchError<E extends Error, A>(f: (e: E) => A, promise: Promise<any>): Promise<A>`
