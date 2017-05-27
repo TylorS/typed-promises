@@ -1,3 +1,13 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/TylorS/typed-promises/compare/v2.0.0...v2.1.0) (2017-05-27)
+
+
+### Bug Fixes
+
+* **all:** call Promise.all directly ([4ae91b3](https://github.com/TylorS/typed-promises/commit/4ae91b3))
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/TylorS/typed-promises/compare/v1.0.0...v2.0.0) (2017-05-26)
 
