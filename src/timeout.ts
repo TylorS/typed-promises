@@ -24,8 +24,7 @@ function _timeout<A>(time: number, promise: Promise<A>): Promise<A> {
         clearTimeout(id)
         resolve(value)
       },
-      reject
+      reject,
     )
   })
 }
-

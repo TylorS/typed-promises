@@ -7,6 +7,13 @@
     "readonly-interface": false,
     "no-unused-variable": [
       false
-    ]
+    ],
+    "max-line-length": [
+      false
+    ],
+    "variable-name": [
+      false
+    ],
+    "multiline-arrow": false
   }
 }

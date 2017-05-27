@@ -4,7 +4,7 @@ import { chain } from './chain'
 import { map } from './map'
 
 function _combine2<A, B, C>(f: Arity2<A, B, C>, p1: Promise<A>, p2: Promise<B>): Promise<C> {
-  return chain((a: A) => map((b) => f(a, b), p2),  p1)
+  return chain((a: A) => map((b) => f(a, b), p2), p1)
 }
 
 export const combine2: Combine2Arity3 = curry3(_combine2)
