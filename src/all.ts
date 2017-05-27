@@ -1,4 +1,4 @@
-export const all: All = (...args: Array<any>) => Promise.all.apply(Promise, args)
+export const all: All = (...args: Array<any>) => Promise.all(args)
 
 export interface All {
   <A>(p1: Promise<A>): Promise<[A]>
