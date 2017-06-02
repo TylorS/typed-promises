@@ -1,4 +1,5 @@
 export * from './all'
+export * from './ap'
 export * from './bimap'
 export * from './catch'
 export * from './chain'
