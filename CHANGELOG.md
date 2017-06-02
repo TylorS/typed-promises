@@ -1,3 +1,13 @@
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/TylorS/typed-promises/compare/v2.1.0...v2.2.0) (2017-06-02)
+
+
+### Features
+
+* **ap:** implement ap function ([90c9255](https://github.com/TylorS/typed-promises/commit/90c9255))
+
+
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/TylorS/typed-promises/compare/v2.0.0...v2.1.0) (2017-05-27)
 
